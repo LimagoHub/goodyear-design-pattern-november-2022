@@ -1,0 +1,1 @@
+# goodyear-design-pattern-november-2022
