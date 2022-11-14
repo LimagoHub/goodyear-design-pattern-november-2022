@@ -3,9 +3,18 @@ import de.mitarbeiter.GehaltsEmpfaenger;
 import de.mitarbeiter.LohnEmpfaenger;
 import de.visitor.PrintVisitor;
 import de.visitor.ResetArbeitszeitVisitor;
+import de.visitor.StatistikVisitor;
+
+import java.util.List;
+import java.util.function.Consumer;
 
 public class Main {
     public static void main(String[] args) {
+
+//         var liste = List.of("Eins","Zwei","Drei");
+//
+//         liste.forEach(System.out::println );
+
         Firma firma = new Firma();
 
         firma.add(new LohnEmpfaenger("Schmitt",40,13));
@@ -18,5 +27,8 @@ public class Main {
         firma.iterate(new PrintVisitor());
         firma.iterate(new ResetArbeitszeitVisitor());
         firma.iterate(new PrintVisitor());
+
+
+        firma.iterate(new StatistikVisitor());
     }
 }
