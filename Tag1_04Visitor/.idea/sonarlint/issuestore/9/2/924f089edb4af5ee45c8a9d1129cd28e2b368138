@@ -1,0 +1,9 @@
+
+0
+java:S1220""Move this file to a named package.
+]	java:S125"<This block of commented-out lines of code should be removed.(¹šú·ûÿÿÿÿ8°òÐ±Ç0
+X	java:S125"<This block of commented-out lines of code should be removed.(ï·Îë8ù­Ñ±Ç0
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8²òÐ±Ç0
+Z
+java:S1128	"8Remove this unused import 'java.util.function.Consumer'.(Ì†ƒÔùÿÿÿÿ8ŸºÎ±Ç0
