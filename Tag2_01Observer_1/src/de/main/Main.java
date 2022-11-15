@@ -14,6 +14,7 @@ public class Main {
 
     private void run() {
         Schwein piggy = new Schwein("Miss Piggy");
+        piggy.addPropertyChangedListener(System.out::println);
         piggy.addPigTooFatListener(new SchweineMetzgerAdapter());
         piggy.addPigTooFatListener(spediteuer::fahren);
 
