@@ -1,0 +1,20 @@
+
+J
+java:S3740	"/Provide the parametrized type for this generic.(×Š×Ïùÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+O
+java:S1854"9Remove this useless assignment to local variable "clazz".(¦ÉÛ™
+T
+java:S1854	"9Remove this useless assignment to local variable "clazz".(×Š×Ïùÿÿÿÿ
+\
+java:S2133"ARemove this object instantiation and use "Schwein.class" instead.(ù´³ûýÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(’ˆµ³ýÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¨ŠóËúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¶´›§þÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¨ŠóËúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‡¼¯õùÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(‡¼¯õùÿÿÿÿ
+N
+java:S3011'",This accessibility update should be removed.(íË©¶úÿÿÿÿ8Ì¬ÿµÇ0
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(‡¼¯õùÿÿÿÿ8…±ýµÇ0
