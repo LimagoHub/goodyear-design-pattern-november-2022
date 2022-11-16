@@ -52,6 +52,13 @@ public abstract class AbstractKonto {
     }
 
     public Iterator<AbstractKonto> iterator() {
-        return new ArrayList<AbstractKonto>().iterator();
+        final List<AbstractKonto> abstractKontos = new ArrayList<>();
+        iteratorImpl(abstractKontos);
+        return abstractKontos.iterator();
+    }
+
+    private void iteratorImpl(final List<AbstractKonto> listToFill) {
+        listToFill.add(this);
+        getChildren().forEach(child->child.iteratorImpl(listToFill));
     }
 }
