@@ -2,7 +2,9 @@ package de.bank;
 
 
 
+import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public abstract class AbstractKonto {
@@ -36,10 +38,9 @@ public abstract class AbstractKonto {
     }
 
     public void print() {
-        System.out.println(this);
-        for (var child : getChildren()) {
-            child.print();
-        }
+       for(var it = iterator();it.hasNext();) {
+           System.out.println(it.next());
+       }
     }
 
     @Override
@@ -48,5 +49,9 @@ public abstract class AbstractKonto {
         sb.append("label='").append(label).append('\'');
         sb.append('}');
         return sb.toString();
+    }
+
+    public Iterator<AbstractKonto> iterator() {
+        return new ArrayList<AbstractKonto>().iterator();
     }
 }
